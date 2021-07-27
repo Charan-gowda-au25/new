@@ -1,6 +1,5 @@
 import random
 
-
 print("WELCOME TO DICE CRICKET, GOOD LUCK")
 
 dice_option = 0
@@ -9,11 +8,7 @@ score = 0
 while dice_option != 5:
     user_rolls = input("Please enter R to roll the dice, Q to quit the game: ").upper()
     if user_rolls == 'R':
-    
-
-
-
-
+   
   dice_option = random.randint(1,6)
         if dice_option != 5:
             score += dice_option
@@ -26,7 +21,7 @@ while dice_option != 5:
         break
     
 print("**********GAME OVER**********")
-  -- INSERT --
-  a.txt
-  :
+  
+  
+  
 
